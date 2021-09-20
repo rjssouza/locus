@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DE88C826-4DD2-4BA3-9F3F-0A8CA194DAEB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Locus.Comando.Interface</RootNamespace>
+    <AssemblyName>Locus.Comando.Interface</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Agenda\IInserirAgenda.cs" />
+    <Compile Include="Agenda\IEditarAgenda.cs" />
+    <Compile Include="Agenda\IDeletarAgenda.cs" />
+    <Compile Include="Especialidade\IDeletarEspecialidade.cs" />
+    <Compile Include="Especialidade\IEditarEspecialidade.cs" />
+    <Compile Include="Especialidade\IInserirEspecialidade.cs" />
+    <Compile Include="Financeiro\IDeletarFinanceiro.cs" />
+    <Compile Include="Financeiro\IEditarFinanceiro.cs" />
+    <Compile Include="Financeiro\IInserirFinanceiro.cs" />
+    <Compile Include="IBaseComando.cs" />
+    <Compile Include="Paciente\IDeletarPaciente.cs" />
+    <Compile Include="Paciente\IEditarPaciente.cs" />
+    <Compile Include="Paciente\IInserirPaciente.cs" />
+    <Compile Include="PerfilUsuario\IDeletarPerfilUsuario.cs" />
+    <Compile Include="PerfilUsuario\IEditarPerfilUsuario.cs" />
+    <Compile Include="PerfilUsuario\IInserirPerfilUsuario.cs" />
+    <Compile Include="Perfil\IDeletarPerfil.cs" />
+    <Compile Include="Perfil\IEditarPerfil.cs" />
+    <Compile Include="Perfil\IInserirPerfil.cs" />
+    <Compile Include="Profissional\IDeletarProfissional.cs" />
+    <Compile Include="Profissional\IEditarProfissional.cs" />
+    <Compile Include="Profissional\IInserirProfissional.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ServicoEmail\IDeletarServicoEmail.cs" />
+    <Compile Include="ServicoEmail\IEditarServicoEmail.cs" />
+    <Compile Include="ServicoEmail\IInserirServicoEmail.cs" />
+    <Compile Include="SessaoEspecialidade\IDeletarSessaoEspecialidade.cs" />
+    <Compile Include="SessaoEspecialidade\IEditarSessaoEspecialidade.cs" />
+    <Compile Include="SessaoEspecialidade\IInserirSessaoEspecialidade.cs" />
+    <Compile Include="Sessao\IDeletarSessao.cs" />
+    <Compile Include="Sessao\IEditarSessao.cs" />
+    <Compile Include="Sessao\IInserirSessao.cs" />
+    <Compile Include="Usuario\IDeletarUsuario.cs" />
+    <Compile Include="Usuario\IEditarUsuario.cs" />
+    <Compile Include="Usuario\IInserirUsuario.cs" />
+    <Compile Include="ValorHora\IDeletarValorHora.cs" />
+    <Compile Include="ValorHora\IEditarValorHora.cs" />
+    <Compile Include="ValorHora\IInserirValorHora.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Locus.Dto\Locus.Dto.csproj">
+      <Project>{e8627879-05c5-44ad-a7dc-c68277617e84}</Project>
+      <Name>Locus.Dto</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Locus.Repositorio.Entidade\Locus.Repositorio.Entidade.csproj">
+      <Project>{c748b96c-699c-4231-8263-c51eccbb989e}</Project>
+      <Name>Locus.Repositorio.Entidade</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,267 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{2A14338F-3876-4B53-977F-B2F2CA677F59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Locus.UI.Api", "Locus.UI.Api\Locus.UI.Api.csproj", "{ADFBE9F4-14FC-48FB-959C-B0EAC628F60A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Comandos", "Comandos", "{4CAE6D39-1FAE-49D6-80C3-EE42D7EF1D1B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Consultas", "Consultas", "{8F53CF15-B722-4763-89DC-B0A94661FDE2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repositorio", "Repositorio", "{3F94E171-F218-46BB-9E6B-DEA94CB92413}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Servicos", "Servicos", "{E2DD4B5B-5A51-4BA5-B367-7C2848FE70AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Locus.Utilidade", "Locus.Utilidade\Locus.Utilidade.csproj", "{43CF722D-BB84-470F-AE30-6C28C7C120B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Locus.Container", "Locus.Container\Locus.Container.csproj", "{6F48B893-ADD6-45B4-9A63-BCB7CCC1052C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Locus.Dto", "Locus.Dto\Locus.Dto.csproj", "{E8627879-05C5-44AD-A7DC-C68277617E84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Locus.Comando", "Locus.Comando\Locus.Comando.csproj", "{07819471-E895-4315-A9C5-3F6B62993992}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Locus.Comando.Interface", "Locus.Comando.Interface\Locus.Comando.Interface.csproj", "{DE88C826-4DD2-4BA3-9F3F-0A8CA194DAEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Locus.Consulta", "Locus.Consulta\Locus.Consulta.csproj", "{8AB29C27-BE34-4AD8-96B7-8D72B849CFAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Locus.Consulta.Interface", "Locus.Consulta.Interface\Locus.Consulta.Interface.csproj", "{E794794E-D6DB-4B49-9C64-01743AAE8469}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Locus.Repositorio", "Locus.Repositorio\Locus.Repositorio.csproj", "{CE43AA22-A751-409A-94E3-B350250BA666}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Locus.Repositorio.Entidade", "Locus.Repositorio.Entidade\Locus.Repositorio.Entidade.csproj", "{C748B96C-699C-4231-8263-C51ECCBB989E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Locus.Servico", "Locus.Servico\Locus.Servico.csproj", "{1E41A2D1-A440-455C-BDB6-58AB2BA248B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Locus.Servico.Interface", "Locus.Servico.Interface\Locus.Servico.Interface.csproj", "{9A64D2B5-1DB0-42F2-9F22-E2A9661AFC5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Locus.MapperConfig", "Locus.Mapper\Locus.MapperConfig.csproj", "{B98A7C8F-D8B0-4894-85DC-FD244D14C832}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Testes", "Testes", "{B9678F7F-9C58-4D1F-B8C0-28589767F59F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Locus.Repositorio.Interface", "Locus.Repositorio.Interface\Locus.Repositorio.Interface.csproj", "{34FC60E3-6834-4F00-9483-5CA91B767DB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Locus.Servico.Regras", "Locus.Servico.Regras\Locus.Servico.Regras.csproj", "{1E077354-E1F3-4DED-AB49-2137C533603A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Factory", "Factory", "{7D9B94E3-BA37-4D1F-88DC-F67242D09948}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Locus.Conexao.Factory", "Locus.Conexao.Factory\Locus.Conexao.Factory.csproj", "{F25D0E49-61DD-484B-88C8-04627C9CC32A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Locus.Conexao.Factory.Interface", "Locus.Conexao.Factory.Interface\Locus.Conexao.Factory.Interface.csproj", "{6175A6A3-3775-4877-A4C2-56C106F221D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Locus.Testes.Repositorio", "Locus.Testes.Repositorio\Locus.Testes.Repositorio.csproj", "{C4BA9D0B-E1A3-4E43-BF12-78EF84AF2A34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Locus.Conexao.ServicoInterface", "Locus.Conexao.ServicoInterface\Locus.Conexao.ServicoInterface.csproj", "{0997DC88-E245-40B5-A222-AE60D5FEFA86}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Provider", "Provider", "{D705E0D5-F57C-4F69-9544-66E6982FC616}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Locus.Provider", "Locus.Provider\Locus.Provider.csproj", "{3004443C-308A-4613-8733-D0E8C513C95F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Locus.Provider.Interface", "Locus.Provider.Interface\Locus.Provider.Interface.csproj", "{677CEE57-AAA7-4EA5-82E2-A4E3F798B0C2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ADFBE9F4-14FC-48FB-959C-B0EAC628F60A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADFBE9F4-14FC-48FB-959C-B0EAC628F60A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADFBE9F4-14FC-48FB-959C-B0EAC628F60A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADFBE9F4-14FC-48FB-959C-B0EAC628F60A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43CF722D-BB84-470F-AE30-6C28C7C120B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43CF722D-BB84-470F-AE30-6C28C7C120B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43CF722D-BB84-470F-AE30-6C28C7C120B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43CF722D-BB84-470F-AE30-6C28C7C120B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F48B893-ADD6-45B4-9A63-BCB7CCC1052C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F48B893-ADD6-45B4-9A63-BCB7CCC1052C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F48B893-ADD6-45B4-9A63-BCB7CCC1052C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F48B893-ADD6-45B4-9A63-BCB7CCC1052C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8627879-05C5-44AD-A7DC-C68277617E84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8627879-05C5-44AD-A7DC-C68277617E84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8627879-05C5-44AD-A7DC-C68277617E84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8627879-05C5-44AD-A7DC-C68277617E84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07819471-E895-4315-A9C5-3F6B62993992}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07819471-E895-4315-A9C5-3F6B62993992}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07819471-E895-4315-A9C5-3F6B62993992}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07819471-E895-4315-A9C5-3F6B62993992}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE88C826-4DD2-4BA3-9F3F-0A8CA194DAEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE88C826-4DD2-4BA3-9F3F-0A8CA194DAEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE88C826-4DD2-4BA3-9F3F-0A8CA194DAEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE88C826-4DD2-4BA3-9F3F-0A8CA194DAEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AB29C27-BE34-4AD8-96B7-8D72B849CFAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AB29C27-BE34-4AD8-96B7-8D72B849CFAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AB29C27-BE34-4AD8-96B7-8D72B849CFAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AB29C27-BE34-4AD8-96B7-8D72B849CFAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E794794E-D6DB-4B49-9C64-01743AAE8469}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E794794E-D6DB-4B49-9C64-01743AAE8469}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E794794E-D6DB-4B49-9C64-01743AAE8469}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E794794E-D6DB-4B49-9C64-01743AAE8469}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE43AA22-A751-409A-94E3-B350250BA666}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE43AA22-A751-409A-94E3-B350250BA666}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE43AA22-A751-409A-94E3-B350250BA666}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE43AA22-A751-409A-94E3-B350250BA666}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C748B96C-699C-4231-8263-C51ECCBB989E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C748B96C-699C-4231-8263-C51ECCBB989E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C748B96C-699C-4231-8263-C51ECCBB989E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C748B96C-699C-4231-8263-C51ECCBB989E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E41A2D1-A440-455C-BDB6-58AB2BA248B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E41A2D1-A440-455C-BDB6-58AB2BA248B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E41A2D1-A440-455C-BDB6-58AB2BA248B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E41A2D1-A440-455C-BDB6-58AB2BA248B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A64D2B5-1DB0-42F2-9F22-E2A9661AFC5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A64D2B5-1DB0-42F2-9F22-E2A9661AFC5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A64D2B5-1DB0-42F2-9F22-E2A9661AFC5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A64D2B5-1DB0-42F2-9F22-E2A9661AFC5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B98A7C8F-D8B0-4894-85DC-FD244D14C832}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B98A7C8F-D8B0-4894-85DC-FD244D14C832}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B98A7C8F-D8B0-4894-85DC-FD244D14C832}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B98A7C8F-D8B0-4894-85DC-FD244D14C832}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34FC60E3-6834-4F00-9483-5CA91B767DB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34FC60E3-6834-4F00-9483-5CA91B767DB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34FC60E3-6834-4F00-9483-5CA91B767DB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34FC60E3-6834-4F00-9483-5CA91B767DB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E077354-E1F3-4DED-AB49-2137C533603A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E077354-E1F3-4DED-AB49-2137C533603A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E077354-E1F3-4DED-AB49-2137C533603A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E077354-E1F3-4DED-AB49-2137C533603A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F25D0E49-61DD-484B-88C8-04627C9CC32A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F25D0E49-61DD-484B-88C8-04627C9CC32A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F25D0E49-61DD-484B-88C8-04627C9CC32A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F25D0E49-61DD-484B-88C8-04627C9CC32A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6175A6A3-3775-4877-A4C2-56C106F221D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6175A6A3-3775-4877-A4C2-56C106F221D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6175A6A3-3775-4877-A4C2-56C106F221D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6175A6A3-3775-4877-A4C2-56C106F221D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4BA9D0B-E1A3-4E43-BF12-78EF84AF2A34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4BA9D0B-E1A3-4E43-BF12-78EF84AF2A34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4BA9D0B-E1A3-4E43-BF12-78EF84AF2A34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4BA9D0B-E1A3-4E43-BF12-78EF84AF2A34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0997DC88-E245-40B5-A222-AE60D5FEFA86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0997DC88-E245-40B5-A222-AE60D5FEFA86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0997DC88-E245-40B5-A222-AE60D5FEFA86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0997DC88-E245-40B5-A222-AE60D5FEFA86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3004443C-308A-4613-8733-D0E8C513C95F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3004443C-308A-4613-8733-D0E8C513C95F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3004443C-308A-4613-8733-D0E8C513C95F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3004443C-308A-4613-8733-D0E8C513C95F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{677CEE57-AAA7-4EA5-82E2-A4E3F798B0C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{677CEE57-AAA7-4EA5-82E2-A4E3F798B0C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{677CEE57-AAA7-4EA5-82E2-A4E3F798B0C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{677CEE57-AAA7-4EA5-82E2-A4E3F798B0C2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ADFBE9F4-14FC-48FB-959C-B0EAC628F60A} = {2A14338F-3876-4B53-977F-B2F2CA677F59}
+		{07819471-E895-4315-A9C5-3F6B62993992} = {4CAE6D39-1FAE-49D6-80C3-EE42D7EF1D1B}
+		{DE88C826-4DD2-4BA3-9F3F-0A8CA194DAEB} = {4CAE6D39-1FAE-49D6-80C3-EE42D7EF1D1B}
+		{8AB29C27-BE34-4AD8-96B7-8D72B849CFAE} = {8F53CF15-B722-4763-89DC-B0A94661FDE2}
+		{E794794E-D6DB-4B49-9C64-01743AAE8469} = {8F53CF15-B722-4763-89DC-B0A94661FDE2}
+		{CE43AA22-A751-409A-94E3-B350250BA666} = {3F94E171-F218-46BB-9E6B-DEA94CB92413}
+		{C748B96C-699C-4231-8263-C51ECCBB989E} = {3F94E171-F218-46BB-9E6B-DEA94CB92413}
+		{1E41A2D1-A440-455C-BDB6-58AB2BA248B0} = {E2DD4B5B-5A51-4BA5-B367-7C2848FE70AD}
+		{9A64D2B5-1DB0-42F2-9F22-E2A9661AFC5D} = {E2DD4B5B-5A51-4BA5-B367-7C2848FE70AD}
+		{34FC60E3-6834-4F00-9483-5CA91B767DB0} = {3F94E171-F218-46BB-9E6B-DEA94CB92413}
+		{1E077354-E1F3-4DED-AB49-2137C533603A} = {E2DD4B5B-5A51-4BA5-B367-7C2848FE70AD}
+		{F25D0E49-61DD-484B-88C8-04627C9CC32A} = {7D9B94E3-BA37-4D1F-88DC-F67242D09948}
+		{6175A6A3-3775-4877-A4C2-56C106F221D0} = {7D9B94E3-BA37-4D1F-88DC-F67242D09948}
+		{C4BA9D0B-E1A3-4E43-BF12-78EF84AF2A34} = {B9678F7F-9C58-4D1F-B8C0-28589767F59F}
+		{0997DC88-E245-40B5-A222-AE60D5FEFA86} = {7D9B94E3-BA37-4D1F-88DC-F67242D09948}
+		{D705E0D5-F57C-4F69-9544-66E6982FC616} = {E2DD4B5B-5A51-4BA5-B367-7C2848FE70AD}
+		{3004443C-308A-4613-8733-D0E8C513C95F} = {D705E0D5-F57C-4F69-9544-66E6982FC616}
+		{677CEE57-AAA7-4EA5-82E2-A4E3F798B0C2} = {D705E0D5-F57C-4F69-9544-66E6982FC616}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E962AE5E-C9A1-4DFD-A24F-C17737EA283B}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 22
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://robsonjesusdesouza.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Locus.UI.Api\\Locus.UI.Api.csproj
+		SccProjectTopLevelParentUniqueName1 = Locus.sln
+		SccProjectName1 = Locus.UI.Api
+		SccLocalPath1 = Locus.UI.Api
+		SccProjectUniqueName2 = Locus.Utilidade\\Locus.Utilidade.csproj
+		SccProjectName2 = Locus.Utilidade
+		SccLocalPath2 = Locus.Utilidade
+		SccProjectUniqueName3 = Locus.Container\\Locus.Container.csproj
+		SccProjectName3 = Locus.Container
+		SccLocalPath3 = Locus.Container
+		SccProjectUniqueName4 = Locus.Dto\\Locus.Dto.csproj
+		SccProjectName4 = Locus.Dto
+		SccLocalPath4 = Locus.Dto
+		SccProjectUniqueName5 = Locus.Comando\\Locus.Comando.csproj
+		SccProjectTopLevelParentUniqueName5 = Locus.sln
+		SccProjectName5 = Locus.Comando
+		SccLocalPath5 = Locus.Comando
+		SccProjectUniqueName6 = Locus.Comando.Interface\\Locus.Comando.Interface.csproj
+		SccProjectTopLevelParentUniqueName6 = Locus.sln
+		SccProjectName6 = Locus.Comando.Interface
+		SccLocalPath6 = Locus.Comando.Interface
+		SccProjectUniqueName7 = Locus.Consulta\\Locus.Consulta.csproj
+		SccProjectTopLevelParentUniqueName7 = Locus.sln
+		SccProjectName7 = Locus.Consulta
+		SccLocalPath7 = Locus.Consulta
+		SccProjectUniqueName8 = Locus.Consulta.Interface\\Locus.Consulta.Interface.csproj
+		SccProjectTopLevelParentUniqueName8 = Locus.sln
+		SccProjectName8 = Locus.Consulta.Interface
+		SccLocalPath8 = Locus.Consulta.Interface
+		SccProjectUniqueName9 = Locus.Repositorio\\Locus.Repositorio.csproj
+		SccProjectTopLevelParentUniqueName9 = Locus.sln
+		SccProjectName9 = Locus.Repositorio
+		SccLocalPath9 = Locus.Repositorio
+		SccProjectUniqueName10 = Locus.Repositorio.Entidade\\Locus.Repositorio.Entidade.csproj
+		SccProjectTopLevelParentUniqueName10 = Locus.sln
+		SccProjectName10 = Locus.Repositorio.Entidade
+		SccLocalPath10 = Locus.Repositorio.Entidade
+		SccProjectUniqueName11 = Locus.Servico\\Locus.Servico.csproj
+		SccProjectTopLevelParentUniqueName11 = Locus.sln
+		SccProjectName11 = Locus.Servico
+		SccLocalPath11 = Locus.Servico
+		SccProjectUniqueName12 = Locus.Servico.Interface\\Locus.Servico.Interface.csproj
+		SccProjectTopLevelParentUniqueName12 = Locus.sln
+		SccProjectName12 = Locus.Servico.Interface
+		SccLocalPath12 = Locus.Servico.Interface
+		SccProjectUniqueName13 = Locus.Repositorio.Interface\\Locus.Repositorio.Interface.csproj
+		SccProjectTopLevelParentUniqueName13 = Locus.sln
+		SccProjectName13 = Locus.Repositorio.Interface
+		SccLocalPath13 = Locus.Repositorio.Interface
+		SccProjectUniqueName14 = Locus.Servico.Regras\\Locus.Servico.Regras.csproj
+		SccProjectTopLevelParentUniqueName14 = Locus.sln
+		SccProjectName14 = Locus.Servico.Regras
+		SccLocalPath14 = Locus.Servico.Regras
+		SccProjectUniqueName15 = Locus.Conexao.Factory\\Locus.Conexao.Factory.csproj
+		SccProjectTopLevelParentUniqueName15 = Locus.sln
+		SccProjectName15 = Locus.Conexao.Factory
+		SccLocalPath15 = Locus.Conexao.Factory
+		SccProjectUniqueName16 = Locus.Conexao.Factory.Interface\\Locus.Conexao.Factory.Interface.csproj
+		SccProjectTopLevelParentUniqueName16 = Locus.sln
+		SccProjectName16 = Locus.Conexao.Factory.Interface
+		SccLocalPath16 = Locus.Conexao.Factory.Interface
+		SccProjectUniqueName17 = Locus.Testes.Repositorio\\Locus.Testes.Repositorio.csproj
+		SccProjectTopLevelParentUniqueName17 = Locus.sln
+		SccProjectName17 = Locus.Testes.Repositorio
+		SccLocalPath17 = Locus.Testes.Repositorio
+		SccProjectUniqueName18 = Locus.Conexao.ServicoInterface\\Locus.Conexao.ServicoInterface.csproj
+		SccProjectTopLevelParentUniqueName18 = Locus.sln
+		SccProjectName18 = Locus.Conexao.ServicoInterface
+		SccLocalPath18 = Locus.Conexao.ServicoInterface
+		SccProjectUniqueName19 = Locus.Mapper\\Locus.MapperConfig.csproj
+		SccProjectName19 = Locus.Mapper
+		SccLocalPath19 = Locus.Mapper
+		SccProjectUniqueName20 = Locus.Provider\\Locus.Provider.csproj
+		SccProjectTopLevelParentUniqueName20 = Locus.sln
+		SccProjectName20 = Locus.Provider
+		SccLocalPath20 = Locus.Provider
+		SccProjectUniqueName21 = Locus.Provider.Interface\\Locus.Provider.Interface.csproj
+		SccProjectTopLevelParentUniqueName21 = Locus.sln
+		SccProjectName21 = Locus.Provider.Interface
+		SccLocalPath21 = Locus.Provider.Interface
+	EndGlobalSection
+EndGlobal

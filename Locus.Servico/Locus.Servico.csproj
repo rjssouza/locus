@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1E41A2D1-A440-455C-BDB6-58AB2BA248B0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Locus.Servico</RootNamespace>
+    <AssemblyName>Locus.Servico</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AutoMapper, Version=6.2.2.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
+      <HintPath>..\packages\AutoMapper.6.2.2\lib\net45\AutoMapper.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AgendaServico.cs" />
+    <Compile Include="Base\BaseServico.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UsuarioServico.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Locus.Conexao.ServicoInterface\Locus.Conexao.ServicoInterface.csproj">
+      <Project>{0997dc88-e245-40b5-a222-ae60d5fefa86}</Project>
+      <Name>Locus.Conexao.ServicoInterface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Locus.Dto\Locus.Dto.csproj">
+      <Project>{e8627879-05c5-44ad-a7dc-c68277617e84}</Project>
+      <Name>Locus.Dto</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Locus.Provider.Interface\Locus.Provider.Interface.csproj">
+      <Project>{677cee57-aaa7-4ea5-82e2-a4e3f798b0c2}</Project>
+      <Name>Locus.Provider.Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Locus.Repositorio.Entidade\Locus.Repositorio.Entidade.csproj">
+      <Project>{c748b96c-699c-4231-8263-c51eccbb989e}</Project>
+      <Name>Locus.Repositorio.Entidade</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Locus.Repositorio.Interface\Locus.Repositorio.Interface.csproj">
+      <Project>{34fc60e3-6834-4f00-9483-5ca91b767db0}</Project>
+      <Name>Locus.Repositorio.Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Locus.Servico.Interface\Locus.Servico.Interface.csproj">
+      <Project>{9a64d2b5-1db0-42f2-9f22-e2a9661afc5d}</Project>
+      <Name>Locus.Servico.Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Locus.Servico.Regras\Locus.Servico.Regras.csproj">
+      <Project>{1e077354-e1f3-4ded-ab49-2137c533603a}</Project>
+      <Name>Locus.Servico.Regras</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Locus.Utilidade\Locus.Utilidade.csproj">
+      <Project>{43cf722d-bb84-470f-ae30-6c28c7c120b2}</Project>
+      <Name>Locus.Utilidade</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
